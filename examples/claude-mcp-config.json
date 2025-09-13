@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "file-analyzer": {
+      "command": "python3",
+      "args": ["-m", "file_analyzer_mcp"],
+      "cwd": "/path/to/file-analyzer-mcp",
+      "env": {
+        "PYTHONPATH": "/path/to/file-analyzer-mcp/src"
+      }
+    }
+  }
+}

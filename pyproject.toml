@@ -99,9 +99,3 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
-addopts = [
-    "--cov=file_analyzer_mcp",
-    "--cov-report=term-missing",
-    "--cov-report=html",
-    "--cov-fail-under=80",
-]

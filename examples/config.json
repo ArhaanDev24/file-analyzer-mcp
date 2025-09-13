@@ -1,0 +1,37 @@
+{
+  "analysis": {
+    "max_file_size": 104857600,
+    "chunk_size": 8192,
+    "max_context_lines": 3,
+    "max_matches_per_file": 100,
+    "max_total_matches": 1000,
+    "enable_complexity_analysis": true,
+    "enable_todo_detection": true,
+    "enable_docstring_analysis": true
+  },
+  "security": {
+    "allow_absolute_paths": true,
+    "allow_symlinks": false,
+    "restricted_paths": [
+      "/etc",
+      "/var",
+      "/sys",
+      "/proc"
+    ],
+    "max_directory_depth": 50
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": null,
+    "max_file_size": 10485760,
+    "backup_count": 5
+  },
+  "server": {
+    "name": "file-analyzer-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for comprehensive file and code analysis",
+    "protocol_version": "2024-11-05",
+    "debug": false
+  }
+}
